@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import UserProfile from './UserProfile';
 
 function App() {
+  // Sample user data
+  const user = {
+    name: 'ASHWITHA',
+    email: 'ashwithas.22it@kongu.edu',
+    location: 'Karur, TamilNadu',
+    bio: 'Web developer with a passion for creating beautiful and functional websites.',
+    avatar: 'https://via.placeholder.com/150', // Placeholder image URL
+  };
+
+  // Inline styles for the App component's container
+  const appStyles = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    minHeight: '100vh',
+    backgroundColor: '#f5f5f5',
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={appStyles}>
+      <UserProfile user={user} />
     </div>
   );
 }

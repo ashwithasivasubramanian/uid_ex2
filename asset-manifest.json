@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/uid_ex2/static/css/main.e6c13ad2.css",
+    "main.js": "/uid_ex2/static/js/main.20993a88.js",
+    "static/js/453.d73b0aaa.chunk.js": "/uid_ex2/static/js/453.d73b0aaa.chunk.js",
+    "static/media/ashwitha.jpg": "/uid_ex2/static/media/ashwitha.bd76224a6830c4759c16.jpg",
+    "index.html": "/uid_ex2/index.html",
+    "main.e6c13ad2.css.map": "/uid_ex2/static/css/main.e6c13ad2.css.map",
+    "main.20993a88.js.map": "/uid_ex2/static/js/main.20993a88.js.map",
+    "453.d73b0aaa.chunk.js.map": "/uid_ex2/static/js/453.d73b0aaa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.20993a88.js"
+  ]
+}
